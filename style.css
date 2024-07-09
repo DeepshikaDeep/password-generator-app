@@ -2,9 +2,10 @@
 
 :root {
     --unit: 1rem;
-    --primary-color: #4C0033;
-    --secondary-color: #f1f1f1;
-    --accent-color: #6f976a;
+    --primary-color: #0B2447;  /* Dark Blue */
+    --secondary-color: #f1f1f1;  /* Light Gray */
+    --accent-color: #4E31AA;  /* Purple */
+    --hover-color: #6f976a;  /* Light Green */
 }
 
 * {
@@ -39,7 +40,7 @@ h2 {
 
 h1 {
     font-size: calc(var(--unit) * 2);
-    color: var(--accent-color);
+    color: #4EBAAA;
     border-bottom: 3px solid var(--accent-color);
     padding-bottom: calc(var(--unit) * 0.5) 0;
     white-space: nowrap;
